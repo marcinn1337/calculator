@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <script src="https://kit.fontawesome.com/21dba76664.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calculator__screen">
+            <p class="calculator__screen-hint"></p>
+            <p class="calculator__screen-functionInput"></p>
+            <div class="calculator__screen-input"></div>
+            <p class="calculator__screen-result">=</p>
+        </div>
+        <div class="calculator__keyboard">
+            <button class="btn btn-functional-clear reset">R</button>
+            <button class="btn btn-cancel"><i class="fa-solid fa-ban"></i></button>
+            <button class="btn-confirm"><i class="fa-solid fa-check"></i></button>
+            <button class="btn btn-more"><i class="fa-solid fa-angles-right"></i></button>
+            <button class="btn btn-simple-functional">+</button>
+            <button class="btn btn-simple-functional">-</button>
+            <button class="btn btn-simple-functional">*</button>
+            <button class="btn btn-simple-functional">/</button>
+            <button class="btn btn-nonfunctional">7</button>
+            <button class="btn btn-nonfunctional">8</button>
+            <button class="btn btn-nonfunctional">9</button>
+            <button class="btn btn-functional exponentation">x<sup>y</sup></button>
+            <button class="btn btn-nonfunctional">4</button>
+            <button class="btn btn-nonfunctional">5</button>
+            <button class="btn btn-nonfunctional">6</button>
+            <button class="btn btn-functional absolute">|x|</button>
+            <button class="btn btn-nonfunctional">1</button>
+            <button class="btn btn-nonfunctional">2</button>
+            <button class="btn btn-nonfunctional">3</button>
+            <button class="btn btn-functional root"><sup>y</sup><i class="fa-solid fa-square-root-variable"></i></button>
+            <button class="btn btn-nonfunctional">.</button>
+            <button class="btn btn-nonfunctional">0</button>
+            <div>
+                <button class="btn btn-nonfunctional">(</button>
+                <button class="btn btn-nonfunctional">)</button>
+            </div>
+            <button class="btn btn-result">=</button>
+        </div>
+    </div>
+    <div class="side-panel">
+        <div class="side-panel__column">
+            <button class="btn btn-functional sin">sin &alpha;</button>
+            <button class="btn btn-functional cos">cos &alpha;</button>
+            <button class="btn btn-functional tg">tg &alpha;</button>
+            <button class="btn btn-functional ctg">ctg &alpha;</button>
+            <button class="btn btn-functional log">log<sub>a</sub>b</button>
+        </div>
+        <div class="side-panel__column">
+            <button class="btn btn-functional">%</button>
+            <button class="btn btn-nonfunctional btn-const const-e">e</button>
+            <button class="btn btn-nonfunctional btn-const const-pi">π</button>
+            <button class="btn btn-nonfunctional btn-const const-phi">φ</button>
+            <button class="btn btn-functional factorial">!</button>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
