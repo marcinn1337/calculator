@@ -1,3 +1,3 @@
 # calculator
 Semi-scientific Calculator
-Podgląd: https://stay1337.github.io/calculator/
+https://marcinn1337.github.io/calculator/
